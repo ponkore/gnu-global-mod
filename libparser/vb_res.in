@@ -1,0 +1,230 @@
+;; Process this file with reserved.pl to create gperf source.
+;
+; Copyright (c) 2003 Tama Communications Corporation
+;
+; This file is free software; as a special exception the author gives
+; unlimited permission to copy and/or distribute it, with or without
+; modifications, as long as this notice is preserved.
+;
+; This program is distributed in the hope that it will be useful, but
+; WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+; implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+;
+; VB.Net reserved word list.
+;
+AddHandler		word
+AddressOf		word
+Alias			word
+And			word
+AndAlso			word
+As			word
+Boolean			word
+ByRef			word
+Byte			word
+ByVal			word
+Call			word
+Case			word
+Catch			word
+CBool			word
+CByte			word
+CChar			word
+CDate			word
+CDec			word
+CDbl			word
+Char			word
+CInt			word
+Class			word
+CLng			word
+CObj			word
+Const			word
+Continue		word
+CSByte			word
+CShort			word
+CSng			word
+CStr			word
+CType			word
+CUInt			word
+CULng			word
+CUShort			word
+Date			word
+Decimal			word
+Declare			word
+Default			word
+Delegate		word
+Dim			word
+DirectCast		word
+Do			word
+Double			word
+Each			word
+Else			word
+ElseIf			word
+End			word
+EndIf			word
+Enum			word
+Erase			word
+Error			word
+Event			word
+Exit			word
+False			word
+Finally			word
+For			word
+Friend			word
+Function		word
+Get			word
+GetType			word
+GetXMLNamespace		word
+Global			word
+GoSub			word
+GoTo			word
+Handles			word
+If			word
+Implements		word
+Imports			word
+In			word
+Inherits		word
+Integer			word
+Interface		word
+Is			word
+IsNot			word
+Let			word
+Lib			word
+Like			word
+Long			word
+Loop			word
+Me			word
+Mod			word
+Module			word
+MustInherit		word
+MustOverride		word
+MyBase			word
+MyClass			word
+Namespace		word
+Narrowing		word
+New			word
+Next			word
+Not			word
+Nothing			word
+NotInheritable		word
+NotOverridable		word
+Object			word
+Of			word
+On			word
+Operator		word
+Option			word
+Optional		word
+Or			word
+OrElse			word
+Overloads		word
+Overridable		word
+Overrides		word
+ParamArray		word
+Partial			word
+Private			word
+Property		word
+Protected		word
+Public			word
+RaiseEvent		word
+ReadOnly		word
+ReDim			word
+REM			word
+RemoveHandler		word
+Resume			word
+Return			word
+SByte			word
+Select			word
+Set			word
+Shadows			word
+Shared			word
+Short			word
+Single			word
+Static			word
+Step			word
+Stop			word
+String			word
+Structure		word
+Sub			word
+SyncLock		word
+Then			word
+Throw			word
+To			word
+True			word
+Try			word
+TryCast			word
+TypeOf			word
+Variant			word
+Wend			word
+UInteger		word
+ULong			word
+UShort			word
+Using			word
+When			word
+While			word
+Widening		word
+With			word
+WithEvents		word
+WriteOnly		word
+Xor			word
+Aggregate		word
+Ansi			word
+Assembly		word
+Auto			word
+Binary			word
+Compare			word
+Custom			word
+Distinct		word
+Equals			word
+Explicit		word
+From			word
+;Group By		word
+;Group Join		word
+Group			word
+By			word
+Join			word
+Into			word
+IsFalse			word
+IsTrue			word
+;Join			word
+Mid			word
+Off			word
+;Order By		word
+Order			word
+;By			word
+Preserve		word
+Skip			word
+;Skip While		word
+Strict			word
+Take			word
+;Take While		word
+Text			word
+Unicode			word
+Until			word
+Where			word
+##			sharp
+#Const			sharp
+#Else			sharp
+#ElseIf			sharp
+#End			sharp
+#If			sharp
+#ExternalSource		sharp
+#Region			sharp
+;;
+;=
+;&
+;&=
+;*
+;*=
+;/
+;/=
+;\
+;\=
+;^
+;^=
+;+
+;+=
+;-
+;-=
+;>>
+;>>=
+;<<
+;<<=
